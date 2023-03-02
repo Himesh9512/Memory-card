@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
-import ScoreBoard from "./scoreboard";
-import CardContainer from "./cardsContainer";
+
 import { data } from "../utilities/data";
 import { randamizeElements } from "../utilities/utils";
+
+import ScoreBoard from "./scoreboard";
+import CardContainer from "./cardsContainer";
+import ResetPopUpDialog from "../utilities/resetPopUp";
 
 const Main = () => {
 	const [bestScore, setBestScore] = useState(0);
@@ -35,11 +38,17 @@ const Main = () => {
 		}
 	};
 	const resetGame = () => {
+		setClickedCardIds([]);
 		setCurrentScore(0);
-		setCards(randamizeElements(data));
 	};
+
 	return (
 		<main className="background-pattern flex h-full select-none flex-col items-center overflow-scroll bg-primary">
+			{/* <ResetPopUpDialog
+				currentScore={currentScore}
+				bestScore={bestScore}
+				handleGameOver={handleGameOver}
+			/> */}
 			<ScoreBoard currentScore={currentScore} bestScore={bestScore} />
 			<CardContainer cards={cards} handleOnClick={handleCardOnClick}></CardContainer>
 		</main>

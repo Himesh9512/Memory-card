@@ -1,3 +1,12 @@
 export const randamizeElements = (array) => {
-	return [...array].sort(() => Math.random() - 0.5);
+	let index = array.length,
+		randomIndex;
+
+	while (index !== 0) {
+		randomIndex = Math.floor(Math.random() * index);
+		index--;
+		[array[index], array[randomIndex]] = [array[randomIndex], array[index]];
+	}
+
+	return array;
 };
