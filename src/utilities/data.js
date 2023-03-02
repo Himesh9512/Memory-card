@@ -1,82 +1,99 @@
+import Img1 from "../assets/images/thor.jpg";
+import Img2 from "../assets/images/spiderman.jpg";
+import Img3 from "../assets/images/doctor-strange.jpg";
+import Img4 from "../assets/images/captain-america.jpg";
+import Img5 from "../assets/images/black-widow.jpg";
+import Img6 from "../assets/images/antman.jpg";
+import Img7 from "../assets/images/thanos.jpeg";
+import Img8 from "../assets/images/scarlet-witch.jpeg";
+import Img9 from "../assets/images/black-panther.jpg";
+import Img10 from "../assets/images/captain-marvel.jpg";
+import Img11 from "../assets/images/hulk.jpg";
+import Img12 from "../assets/images/rocket.jpg";
+import Img13 from "../assets/images/deadpool.jpg";
+import Img14 from "../assets/images/loki.jpg";
+import Img15 from "../assets/images/groot.jpg";
+import Img16 from "../assets/images/ironman.jpg";
+
 export const data = [
 	{
 		id: 1,
 		name: "thor",
-		image: "../images/thor.jpg",
+		image: Img1,
 	},
 	{
 		id: 2,
 		name: "spider man",
-		image: "../images/spiderman.jpg",
+		image: Img2,
 	},
 	{
 		id: 3,
 		name: "doctor strange",
-		image: "../images/doctor-strange.jpg",
+		image: Img3,
 	},
 	{
 		id: 4,
 		name: "captain america",
-		image: "../images/captain-america.jpg",
+		image: Img4,
 	},
 	{
 		id: 5,
 		name: "black widow",
-		image: "../images/black-widow.jpg",
+		image: Img5,
 	},
 	{
 		id: 6,
 		name: "antman",
-		image: "../images/antman.jpg",
+		image: Img6,
 	},
 	{
 		id: 7,
 		name: "thanos",
-		image: "../images/thanos.jpg",
+		image: Img7,
 	},
 	{
 		id: 8,
 		name: "scarlet witch",
-		image: "../images/scarlet-witch.jpg",
+		image: Img8,
 	},
 	{
 		id: 9,
 		name: "black panther",
-		image: "../images/black-panther.jpg",
+		image: Img9,
 	},
 	{
 		id: 10,
 		name: "captain marvel",
-		image: "../images/captain-marvel.jpg",
+		image: Img10,
 	},
 	{
 		id: 11,
 		name: "hulk",
-		image: "../images/hulk.jpg",
+		image: Img11,
 	},
 	{
 		id: 12,
 		name: "rocket",
-		image: "../images/rocket.jpg",
+		image: Img12,
 	},
 	{
 		id: 13,
 		name: "deadpool",
-		image: "../images/deadpool.jpg",
+		image: Img13,
 	},
 	{
 		id: 14,
 		name: "loki",
-		image: "../images/loki.jpg",
+		image: Img14,
 	},
 	{
 		id: 15,
 		name: "groot",
-		image: "../images/groot.jpg",
+		image: Img15,
 	},
 	{
 		id: 16,
 		name: "ironman",
-		image: "../images/ironman.jpg",
+		image: Img16,
 	},
 ];

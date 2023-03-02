@@ -4,10 +4,14 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#FEFBE9",
-				secondary: "#E1EEDD",
-				orange: "#F0A04B",
-				"dark-text": "#183A1D",
+				primary: "#000000",
+				secondary: "#e23636",
+			},
+			gridTemplateColumns: {
+				custom: "repeat(auto-fit,minmax(100px,250px))",
+			},
+			fontFamily: {
+				marvel: "Marvel",
 			},
 		},
 	},
