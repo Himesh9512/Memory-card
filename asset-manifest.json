@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.892a5336.css",
-    "main.js": "/react-gh-pages/static/js/main.b30d88bd.js",
-    "static/media/hulk.jpg": "/react-gh-pages/static/media/hulk.55dd7098ee28dd84d363.jpg",
-    "static/media/doctor-strange.jpg": "/react-gh-pages/static/media/doctor-strange.d7b60d0e5f471c0b312d.jpg",
-    "static/media/thor.jpg": "/react-gh-pages/static/media/thor.36897c5ca5bcfac77944.jpg",
-    "static/media/groot.jpg": "/react-gh-pages/static/media/groot.8f1e661056f8d9a8140f.jpg",
-    "static/media/black-panther.jpg": "/react-gh-pages/static/media/black-panther.d0558abaa2432d8b562e.jpg",
-    "static/media/ironman.jpg": "/react-gh-pages/static/media/ironman.b674626d6045f15e2719.jpg",
-    "static/media/captain-america.jpg": "/react-gh-pages/static/media/captain-america.54893079dc0d761f8bd0.jpg",
-    "static/media/rocket.jpg": "/react-gh-pages/static/media/rocket.73dcf1d144a1408f750f.jpg",
-    "static/media/black-widow.jpg": "/react-gh-pages/static/media/black-widow.23172c045b0d35c4be39.jpg",
-    "static/media/deadpool.jpg": "/react-gh-pages/static/media/deadpool.6c03034eddbb6408e46a.jpg",
-    "static/media/spiderman.jpg": "/react-gh-pages/static/media/spiderman.655f49db8c13a165aab7.jpg",
-    "static/media/loki.jpg": "/react-gh-pages/static/media/loki.c46367986a28f57e87d7.jpg",
-    "static/media/captain-marvel.jpg": "/react-gh-pages/static/media/captain-marvel.d41e7014f90c5204f103.jpg",
-    "static/media/antman.jpg": "/react-gh-pages/static/media/antman.1e321b9ef5e91b74b73f.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.892a5336.css.map": "/react-gh-pages/static/css/main.892a5336.css.map",
-    "main.b30d88bd.js.map": "/react-gh-pages/static/js/main.b30d88bd.js.map"
+    "main.css": "/Memory-card/static/css/main.892a5336.css",
+    "main.js": "/Memory-card/static/js/main.8b4b21c8.js",
+    "static/media/hulk.jpg": "/Memory-card/static/media/hulk.55dd7098ee28dd84d363.jpg",
+    "static/media/doctor-strange.jpg": "/Memory-card/static/media/doctor-strange.d7b60d0e5f471c0b312d.jpg",
+    "static/media/thor.jpg": "/Memory-card/static/media/thor.36897c5ca5bcfac77944.jpg",
+    "static/media/groot.jpg": "/Memory-card/static/media/groot.8f1e661056f8d9a8140f.jpg",
+    "static/media/black-panther.jpg": "/Memory-card/static/media/black-panther.d0558abaa2432d8b562e.jpg",
+    "static/media/ironman.jpg": "/Memory-card/static/media/ironman.b674626d6045f15e2719.jpg",
+    "static/media/captain-america.jpg": "/Memory-card/static/media/captain-america.54893079dc0d761f8bd0.jpg",
+    "static/media/rocket.jpg": "/Memory-card/static/media/rocket.73dcf1d144a1408f750f.jpg",
+    "static/media/black-widow.jpg": "/Memory-card/static/media/black-widow.23172c045b0d35c4be39.jpg",
+    "static/media/deadpool.jpg": "/Memory-card/static/media/deadpool.6c03034eddbb6408e46a.jpg",
+    "static/media/spiderman.jpg": "/Memory-card/static/media/spiderman.655f49db8c13a165aab7.jpg",
+    "static/media/loki.jpg": "/Memory-card/static/media/loki.c46367986a28f57e87d7.jpg",
+    "static/media/captain-marvel.jpg": "/Memory-card/static/media/captain-marvel.d41e7014f90c5204f103.jpg",
+    "static/media/antman.jpg": "/Memory-card/static/media/antman.1e321b9ef5e91b74b73f.jpg",
+    "index.html": "/Memory-card/index.html",
+    "main.892a5336.css.map": "/Memory-card/static/css/main.892a5336.css.map",
+    "main.8b4b21c8.js.map": "/Memory-card/static/js/main.8b4b21c8.js.map"
   },
   "entrypoints": [
     "static/css/main.892a5336.css",
-    "static/js/main.b30d88bd.js"
+    "static/js/main.8b4b21c8.js"
   ]
 }
