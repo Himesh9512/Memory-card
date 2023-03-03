@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Memory-card/static/css/main.892a5336.css",
-    "main.js": "/Memory-card/static/js/main.8b4b21c8.js",
+    "main.css": "/Memory-card/static/css/main.9345a66b.css",
+    "main.js": "/Memory-card/static/js/main.ea4469e8.js",
     "static/media/hulk.jpg": "/Memory-card/static/media/hulk.55dd7098ee28dd84d363.jpg",
     "static/media/doctor-strange.jpg": "/Memory-card/static/media/doctor-strange.d7b60d0e5f471c0b312d.jpg",
     "static/media/thor.jpg": "/Memory-card/static/media/thor.36897c5ca5bcfac77944.jpg",
@@ -17,11 +17,11 @@
     "static/media/captain-marvel.jpg": "/Memory-card/static/media/captain-marvel.d41e7014f90c5204f103.jpg",
     "static/media/antman.jpg": "/Memory-card/static/media/antman.1e321b9ef5e91b74b73f.jpg",
     "index.html": "/Memory-card/index.html",
-    "main.892a5336.css.map": "/Memory-card/static/css/main.892a5336.css.map",
-    "main.8b4b21c8.js.map": "/Memory-card/static/js/main.8b4b21c8.js.map"
+    "main.9345a66b.css.map": "/Memory-card/static/css/main.9345a66b.css.map",
+    "main.ea4469e8.js.map": "/Memory-card/static/js/main.ea4469e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.892a5336.css",
-    "static/js/main.8b4b21c8.js"
+    "static/css/main.9345a66b.css",
+    "static/js/main.ea4469e8.js"
   ]
 }
