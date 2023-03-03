@@ -48,7 +48,7 @@ const Main = () => {
 		resetGame();
 	};
 	return (
-		<main className="background-pattern flex h-full select-none flex-col items-center overflow-scroll bg-primary">
+		<main className="background-pattern flex h-fit select-none flex-col items-center bg-primary">
 			<ResetModal
 				display={modalDisplay}
 				currentScore={currentScore}
