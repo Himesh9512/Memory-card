@@ -5,7 +5,7 @@ import { randamizeElements } from "../utilities/utils";
 
 import ScoreBoard from "./scoreboard";
 import CardContainer from "./cardsContainer";
-import ResetModal from "../utilities/resetPopUp";
+import ResetModal from "../utilities/resetModal";
 
 const Main = () => {
 	const [bestScore, setBestScore] = useState(0);
