@@ -5,13 +5,14 @@ import { randamizeElements } from "../utilities/utils";
 
 import ScoreBoard from "./scoreboard";
 import CardContainer from "./cardsContainer";
-import ResetPopUpDialog from "../utilities/resetPopUp";
+import ResetModal from "../utilities/resetPopUp";
 
 const Main = () => {
 	const [bestScore, setBestScore] = useState(0);
 	const [currentScore, setCurrentScore] = useState(0);
 	const [cards, setCards] = useState([]);
 	const [clickedCardIds, setClickedCardIds] = useState([]);
+	const [modalDisplay, setModalDisplay] = useState("none");
 
 	useEffect(() => {
 		(() => {
@@ -26,7 +27,7 @@ const Main = () => {
 	};
 
 	const nextRound = (cardId) => {
-		if (clickedCardIds.includes(cardId)) return resetGame();
+		if (clickedCardIds.includes(cardId)) return setModalDisplay("block");
 		setClickedCardIds((prevState) => [...prevState, cardId]);
 		scoreIncrement();
 	};
@@ -42,13 +43,18 @@ const Main = () => {
 		setCurrentScore(0);
 	};
 
+	const handleGameOver = () => {
+		setModalDisplay("none");
+		resetGame();
+	};
 	return (
 		<main className="background-pattern flex h-full select-none flex-col items-center overflow-scroll bg-primary">
-			{/* <ResetPopUpDialog
+			<ResetModal
+				display={modalDisplay}
 				currentScore={currentScore}
 				bestScore={bestScore}
 				handleGameOver={handleGameOver}
-			/> */}
+			/>
 			<ScoreBoard currentScore={currentScore} bestScore={bestScore} />
 			<CardContainer cards={cards} handleOnClick={handleCardOnClick}></CardContainer>
 		</main>
